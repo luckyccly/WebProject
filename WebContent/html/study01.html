@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>页面布局</title>
+<!--样式-->
+<style type="text/css">
+h1{
+	color:red;
+}
+p{
+	background:blue;
+	color:white;
+}
+</style> 
+</head>
+<body>
+<!--基本标签-->
+<h1>我的第一个标题</h1>
+<h2>我的第二个标题</h2>
+<h3>我的第三个标题</h3>
+<h6>我的第六个标题</h6>
+
+<p>这是一个段落</p>
+<br/><!--换行线-->
+<hr/><!--横线-->
+
+<!--文本格式化-->
+<b>粗体内容</b>
+<i>斜体内容</i>
+<code>计算机代码</code>
+<em>定义着重文字</em>
+<strong>定义加重语气</strong>
+<sub>定义下标字</sub>
+<sup>定义上标字</sup>
+<ins>定义插入字</ins>
+<del>定义删除字</del>
+<kbd>定义键盘码</kbd>
+<!--定义链接-->
+<a href="https://www.baidu.com/">普通链接</a>
+<a href="https://www.baidu.com/"><img src="../img/test" alt="picture" title="picture"/></a><!--图像链接-->
+<a href="https://www.baidu.com/">email</a>
+<a href="https://www.baidu.com/ id="top">提示部分</a>
+<a href="#top">跳到提示部分</a>
+
+<!--图片-->
+<!--<img src="../img/test.png" alt="test图片">-->
+<!--区块-->
+<div>文档中的块级元素</div>
+<span>文档中的内联元素</span>
+<!--无序列表-->
+<ul>
+    <li>无序第一行</li>
+    <li>无序第二行</li>
+</ul>
+<!--有序列表-->
+<ol>
+	<li>有序第一行</li>
+	<li>有序第二行</li>
+</ol>
+<!--定义列表-->
+<dl>
+	<dt>项目</dt>
+	<dd>项目</dd>
+	<dt>项目</dt>
+	<dd>项目</dd>
+</dl>
+<!--表格-->
+<table border="1">
+	<tr>
+		<th>表格标题</th>
+		<th>表格标题</th>
+	</tr>
+	<tr>
+		<td>表格数据</td>
+		<td>表格数据</td>
+	</tr>
+</table>
+<!--框架 iframe-->
+<!--<iframe src="demo_iframe.htm"></iframe>-->
+<!--表单 form-->
+<form action="/test.do" method="post">
+	用户名为：<input type="text" name="username" value="user"/><br/>
+	密码为：<input type="password" name="passwd" value="passwd"><br/>
+	<input type="checkbox" checked="checked"/>复选框1<input type="checkbox"/>复选框2<br/>
+	<input type="radio" name="single" checked="checked"/>单选按钮1<input type="radio" name="single"/>单选按钮2<br/>
+	<input type="submit" value="send"/><br/>
+	<input type="reset" value="重置"/>
+	<input type="hidden" value="隐藏"/>
+	<select>
+		<option>---</option>
+		<option>选项一</option>
+		<option>选项二</option>
+	</select><br/>
+	<textarea name="comment" rows="10" cols="40">&#169;©</textarea>
+</form>
+</body>
+</html>
